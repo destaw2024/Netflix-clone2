@@ -1,0 +1,40 @@
+
+.isSmall img {
+    display: block;
+    width: 150px;
+    /* height: 150px; */
+}
+
+.movie_row{
+    display: flex;
+    gap: 10px;
+    
+}
+.isLarge img{
+   display: block;
+    width: 200px;
+
+}
+.banner_title{
+    position: relative;
+    z-index: 2;
+    margin : -10px 0 5px 30px;
+}
+.single_row_container h1{
+    margin: 5px 0 15px;
+    color: white;
+}
+.single_row_container{
+    /* overflow: hidden; */
+    overflow-x: scroll;
+     overflow-y: hidden;
+  cursor: pointer; 
+}
+.single_row_container::-webkit-scrollbar {
+  display: none;
+}
+/* .YouTube{
+display: flex;
+justify-content: center;
+margin: 0 20px;
+} */
