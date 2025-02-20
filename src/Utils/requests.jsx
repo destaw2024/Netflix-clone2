@@ -1,6 +1,7 @@
-
 // import axios from "axios";
 const API_KEY = import.meta.env.VITE_APP_API_KEY;
+// https://api.themoviedb.org/3/discover/tv?api_key=82179191b7709ac8f816071beae09bfe&with_networks=213
+
 const Request = {
   fetchPopuar: `/discover/movie?api_key=${API_KEY}&include_adult=false&sort_by=popularity.desc`,
   fetchAction: `/discover/movie?api_key=${API_KEY}&include_adult=false&include_video=false&sort_by=popularity.desc&with_genres=28`,
